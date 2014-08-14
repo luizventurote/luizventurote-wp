@@ -1,0 +1,39 @@
+.divider {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+.divider-inline {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    padding: 0 10px 0;
+}
+
+.divider-single {
+    background-color: #DDD;
+    height: 2px;
+    border-bottom: 1px solid #FFF;
+}
+
+.divider-double {
+    height: 6px;
+    border-top: 1px solid #e7e6e6;
+    border-bottom: 1px solid #e7e6e6;
+}
+
+.divider-dashed {
+    border-bottom: 2px dashed #e7e6e6;
+}
+
+.divider-dotted {
+    border-bottom: 2px dotted #e7e6e6;
+}
+
+.divider-double-dotted {
+    margin-top: 4px;
+    height: 4px;
+    border-top: 1px dotted #b2b2b2;
+    border-bottom: 1px dotted #b2b2b2;
+}

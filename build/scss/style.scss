@@ -1,0 +1,28 @@
+// Theme Name: Layout Boilerplate
+// Theme URI: https://github.com/luizventurote/layout-boilerplate
+// Author: Luiz Venturote
+// Author URI: http://www.luizventurote.com/
+// Description: This is a layout boilerplate for projects.
+
+// Media Queries
+$mq_xs: 320px;
+$mq_sm: 768px;
+$mq_md: 992px;
+$mq_lg: 1200px;
+
+// === Imports ================================================================================= //
+@import "_media-queries";
+@import "_mixins";
+@import "_fonts";
+@import "_reset";
+@import "_color-scheme";
+@import "_base"; 
+@import "_header";
+@import "_footer";
+@import "_post";
+
+@import "elements/_menu"; 
+@import "elements/_logo"; 
+@import "elements/_dividers"; 
+@import "elements/_media-box"; 
+@import "elements/_fadder-image"; 

@@ -1,0 +1,32 @@
+.logo {
+	width: 280px;
+	margin: auto;
+	font-size: 0;
+	display: block;
+	overflow: hidden;
+	position: relative;
+	margin-top: 130px;
+
+	h1 {
+		padding: 0;
+		margin: 0;
+	}
+
+	img {
+		width: 100%;
+		height: 100%;
+	}
+
+	/* Media query */
+	@include min-screen($mq_sm)  {
+	   
+	    width: 310px;
+	
+	}
+
+	@include min-screen($mq_md)  {
+	    
+	    width: 380px;
+	    
+	}
+}

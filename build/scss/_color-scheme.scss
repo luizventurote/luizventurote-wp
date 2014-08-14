@@ -1,0 +1,93 @@
+/**
+ *  UI Objects Framework - Color Scheme
+ */
+
+// Global color scheme variables
+$cs-primary: #00a79d;
+$cs-primary-hover: desaturate(lighten($cs-primary, 5), 22);
+
+$cs-secondary: #121212;
+$cs-secondary-hover: lighten(adjust_hue($cs-secondary, 4), 5);
+$cs-secondary-border: adjust_hue(darken($cs-secondary, 8), 0);
+
+$cs-default: #dadada;
+$cs-default-hover: darken($cs-default, 5);
+
+$cs-neutral: #333;
+$cs-neutral-hover: desaturate(lighten($cs-neutral, 5), 22);
+
+$cs-danger: #e14040;
+$cs-danger-hover: lighten($cs-danger, 3);
+
+$cs-border: #dadada;
+
+
+.color-box {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    display: inline-block;
+    background: #eee;
+}
+
+.style-primary {
+    color: #FFF;
+    background: $cs-primary;
+    text-shadow: 1px 1px 2px adjust_hue(saturate(darken($cs-primary, 13), 7), 1);
+
+    &:hover, &:active, &:focus {
+        color: #FFF;
+    }
+
+    &.hover {
+        background: $cs-primary-hover;
+    }
+
+    &.gradient {
+        @include linear-gradient( adjust_hue(desaturate(lighten($cs-primary, 6), 9), 351) , adjust_hue(saturate(darken($cs-primary, 1), 7), 1) );
+
+        &:hover {
+            @include linear-gradient( adjust_hue(desaturate(lighten($cs-primary, 8), 9), 351) , adjust_hue(saturate(darken($cs-primary, 1), 7), 1) );
+        }
+    }
+}
+
+.style-secondary {
+    color: #333;
+    background: $cs-secondary;
+    border: 1px solid $cs-secondary-border;
+    text-shadow: 1px 1px 2px #FFF;
+}
+
+.style-default {
+    background: $cs-default;
+    color: #333;
+    text-shadow: 1px 1px 2px #FFF;
+}
+
+.style-neutral {
+    background: $cs-neutral;
+}
+
+.style-danger {
+    background: $cs-danger;
+    color: #FFF;
+    text-shadow: 1px 1px 2px adjust_hue(saturate(darken($cs-danger, 13), 7), 1);
+}
+
+.style-ghost {
+    color: #333;
+    background: transparent;
+    border: 1px solid $cs-border;
+
+    &:hover {
+        color: $cs-primary;
+        border-color: $cs-primary;
+    }
+
+    // &:active {
+    //     color: #FFF;
+    //     background: $cs-primary;
+    //     text-shadow: 0 0 0 #FFF;
+    // }
+}

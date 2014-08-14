@@ -1,0 +1,33 @@
+.main-header {
+	height: 310px;
+	position: relative;
+	background: url('../img/header.bg.png') repeat-x center center;
+	-webkit-animation: animatedBackground 25s linear infinite;
+  	-moz-animation: animatedBackground 25s linear infinite;
+  	-o-animation: animatedBackground 25s linear infinite;
+	animation: animatedBackground 25s linear infinite;
+
+	.header-container {
+		position: static;
+	}
+}
+
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+
+@-webkit-keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+
+@-moz-keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+
+@-o-keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}

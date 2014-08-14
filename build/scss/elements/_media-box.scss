@@ -1,0 +1,48 @@
+/**
+ *  UI Objects Framework - Media Box element #2
+ */
+
+// Media Box
+.media-box {
+	text-align: center;
+	margin-bottom: 40px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	@include FontBold();
+
+	.media-title {
+		display: block;
+		font-size: 1em;
+		padding: 15px 0;
+		text-decoration: none;
+		text-transform: uppercase;
+		color: #555;
+	}
+
+	.media-thumbnail {
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.media-info {
+		font-size: .8em;
+		@include FontLight();
+
+		a {
+			color: $cs-secondary;
+		}
+
+		.media-date {
+			float: left;
+
+			.icon {
+				margin-right: 3px;
+			}
+		}
+
+		.media-comments {
+		}
+
+	}
+	
+}

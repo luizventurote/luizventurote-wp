@@ -1,0 +1,90 @@
+$font_default: 16px;
+
+// === Structure =============================================================================== //
+body {
+    min-width: 320px; 
+	@include FontLight();
+	font-size: $font_default;
+    background-color: #F5F5F5;
+    color: $cs-secondary;
+}
+
+.row {
+    margin: 0;
+}
+
+.row-inside {
+    margin-left: -10px;
+    margin-right: -10px;
+
+    &:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
+
+.col-reset {
+    padding: 0;
+}
+
+
+.main {
+    min-width: 320px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 0;
+}
+
+a {
+    color: $cs-primary;
+    @extend .effect;
+}
+
+a:hover {
+    color: $cs-primary;
+    text-decoration: underline;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+h1 {
+    @include FontLight();
+    font-size: 3em;
+}
+
+h2 {
+    @extend h1;
+    font-size: 2.3em;
+}
+
+h3 {
+    @extend h1;
+    font-size: 1.8em;
+}
+
+h4 {
+    @extend h1;
+    font-size: 1.6em;
+}
+
+h5 {
+    @extend h1;
+    font-size: 1.3em;
+}
+
+h6 {
+    @extend h1;
+    font-size: 1em;
+}
+
+// Icon
+.icon {
+    color: $cs-primary;
+}

@@ -1,0 +1,24 @@
+.post {
+
+	.post-title {
+		color: $cs-secondary;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	.post-info {
+		margin: 20px 0 40px;
+	}
+
+	.post-time {
+		margin-right: 20px;
+	}
+
+	.post-tags {
+		a {
+			color: $cs-secondary;
+		}
+	}
+}
