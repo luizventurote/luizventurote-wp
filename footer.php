@@ -8,7 +8,7 @@
 
                 <div class="col-sm-12">
 
-                    <span class="copyright">By Luiz Venturote <i class="fa fa-code icon"></i> Fork me on <a href="#">GitHub</a>.</span>
+                    <span class="copyright">By Luiz Venturote <i class="fa fa-code icon"></i> Fork me on <a href="https://github.com/luizventurote">GitHub</a>.</span>
 
                 </div>
 

@@ -30,8 +30,8 @@
                         <li><a href="#"><?php _e( 'About', 'swp' ) ?></a></li>
                         <li><a href="#"><?php _e( 'Blog', 'swp' ) ?></a></li>
                         <li><a href="#"><?php _e( 'Talks', 'swp' ) ?></a></li>
-                        <li><a href="#"><?php _e( 'Portfolio', 'swp' ) ?></a></li>
-                        <li><a href="#"><?php _e( 'Github', 'swp' ) ?></a></li>
+                        <li><a href="https://www.behance.net/luizventurote"><?php _e( 'Portfolio', 'swp' ) ?></a></li>
+                        <li><a href="https://github.com/luizventurote"><?php _e( 'Github', 'swp' ) ?></a></li>
                     </ul>
                 </nav>
             </menu>
