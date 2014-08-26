@@ -1,0 +1,8 @@
+.page-title {
+	color: $cs-font-color;
+
+	&:hover {
+		color: $cs-primary;
+		text-decoration: none;
+	}
+}

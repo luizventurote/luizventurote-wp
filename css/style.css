@@ -171,7 +171,7 @@ body {
   line-height: 1.7em;
   font-size: 16px;
   background-color: #F5F5F5;
-  color: #333;
+  color: #333333;
 }
 
 .row {
@@ -312,6 +312,14 @@ h6 {
 }
 .post .post-tags a {
   color: #121212;
+}
+
+.page-title {
+  color: #333333;
+}
+.page-title:hover {
+  color: #00a79d;
+  text-decoration: none;
 }
 
 .menu {

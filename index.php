@@ -6,7 +6,7 @@
 
             <article class="col-sm-12">
 
-                <?php get_template_part( 'content', 'single' ); ?>
+                <?php get_template_part( 'content', 'home' ); ?>
 
             </article>
 
