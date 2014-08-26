@@ -1,11 +1,13 @@
 <!doctype html>
-<html lang="pt-br">
+<html <?php language_attributes(); ?>>
     <head>
 
-        <meta charset="UTF-8">
-        <title>Luiz Venturote // Front-End Developer</title>
-        <meta name="description" content="">
+        <meta charset="<?php bloginfo( 'charset' ); ?>" />
+        <meta http-equiv="X-UA-Compatible" content="IE=10" />
+        <title><?php wp_title( '|', true, 'right' ); ?></title>
+        <meta name="description" content="<?php bloginfo('description'); ?>" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
         <!-- Icons -->
         <link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/img/apple-touch-icon.png">
@@ -20,7 +22,7 @@
         <?php wp_head(); ?>
 
     </head>
-    <body>
+    <body <?php body_class(); ?>>
 
         <header>
 
