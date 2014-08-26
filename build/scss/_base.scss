@@ -3,10 +3,11 @@ $font_default: 16px;
 // === Structure =============================================================================== //
 body {
     min-width: 320px; 
-	@include FontLight();
+	@include FontRegular();
+    line-height: 1.7em;
 	font-size: $font_default;
     background-color: #F5F5F5;
-    color: $cs-secondary;
+    color: #333;
 }
 
 .row {

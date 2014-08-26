@@ -1,4 +1,6 @@
 .menu {
+	@include FontLight();
+	line-height: 2.5em;
 
 	&.menu-btn {
 		top: 25px;

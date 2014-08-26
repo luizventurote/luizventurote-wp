@@ -167,10 +167,11 @@ input, input:active, input:focus, input:hover {
 
 body {
   min-width: 320px;
-  font-family: 'open_sanslight', Helvetica, Arial, sans-serif;
+  font-family: 'open_sansregular', Helvetica, Arial, sans-serif;
+  line-height: 1.7em;
   font-size: 16px;
   background-color: #F5F5F5;
-  color: #121212;
+  color: #333;
 }
 
 .row {
@@ -314,6 +315,8 @@ h6 {
 }
 
 .menu {
+  font-family: 'open_sanslight', Helvetica, Arial, sans-serif;
+  line-height: 2.5em;
   /* Media query */
 }
 .menu.menu-btn {
