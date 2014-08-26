@@ -46,10 +46,13 @@
 
                         <div class="menu menu-btn" id="touch-menu"><span></span></div>
 
-                        <a href="#" class="logo">
+                        <a href="<?= home_url() ?>" class="logo">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Luiz Venturote // Front-End Developer">
-                            <h1>Luiz Venturote // Front-End Developer</h1>
+                            <h1><?php echo get_bloginfo( 'name' ); ?></h1>
                         </a>
+
+
+                        
 
                     </div>
 
