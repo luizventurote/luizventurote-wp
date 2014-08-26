@@ -1,4 +1,4 @@
-luizventurote-wp
-================
+Luiz Venturote - Portfolio Wordpress Theme
+==========================================
 
-Wordpress theme.
+Portfolio wordpress theme by Luiz Venturote.
