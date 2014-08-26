@@ -4,7 +4,6 @@
 
     <div class="divider divider-single"></div>
 
-    <?php //the_content(); ?>
     <?= getPostMeta('post_overview'); ?>
 
     <div class="post-info">   
